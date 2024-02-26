@@ -1,15 +1,14 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Epic Games, Inc. All Rights Reserved.
 
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class SAOTarget : TargetRules
+public class SAOServerTarget : TargetRules //Change this line according to the name of your project
 {
-	public SAOTarget(TargetInfo Target) : base(Target)
-	{
-		Type = TargetType.Game;
-		DefaultBuildSettings = BuildSettingsVersion.V4;
-
-		ExtraModuleNames.AddRange( new string[] { "SAO" } );
-	}
+    public SAOServerTarget(TargetInfo Target) : base(Target) //Change this line according to the name of your project
+    {
+        Type = TargetType.Server;
+        DefaultBuildSettings = BuildSettingsVersion.V2;
+        ExtraModuleNames.Add("SAO"); //Change this line according to the name of your project
+    }
 }

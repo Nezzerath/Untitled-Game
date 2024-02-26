@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "{BF331D21-46A7-D167-3718-0E811DD43842}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -21,6 +21,14 @@
 		{
 			"Name": "MultiUserClient",
 			"Enabled": true
+		},
+		{
+			"Name": "AdvancedSteamSessions",
+			"Enabled": false
+		},
+		{
+			"Name": "AdvancedSessions",
+			"Enabled": false
 		}
 	]
 }
